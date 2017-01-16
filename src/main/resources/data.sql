@@ -1,0 +1,1 @@
+insert into message(id,text) values (100,'Hello Spring Boot!');

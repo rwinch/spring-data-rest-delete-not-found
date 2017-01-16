@@ -1,0 +1,1 @@
+Demos that if I provide a `@GetMapping("/messages/{id}")` Spring Data Rest will still support POST to create a message, but does not support DELETE. To see this happen, run the `SpringDataRestDeleteNotFoundApplicationTests`. If you remove `@RestController` from `MessageController` the tests pass.
